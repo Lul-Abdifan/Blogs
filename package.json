@@ -1,15 +1,24 @@
 {
-  "name": "blog",
+  "name": "blogs",
   "version": "1.0.0",
-  "description": "",
+  "description": "A blog is a website or section of a website where an individual or a group of individuals share their thoughts, ideas, opinions, experiences, and other content in a chronological order.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lul-Abdifan/Blogs.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lul-Abdifan/Blogs/issues"
+  },
+  "homepage": "https://github.com/Lul-Abdifan/Blogs#readme",
   "dependencies": {
+    "ejs": "^3.1.9",
     "express": "^4.18.2"
   },
   "devDependencies": {
